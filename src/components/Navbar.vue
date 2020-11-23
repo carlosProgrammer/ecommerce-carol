@@ -1,21 +1,29 @@
 <template>
 <div>
-  <b-navbar toggleable="lg" type="light" variant="light">
+  <b-navbar toggleable="lg" >
     <b-navbar-brand @click="goHome" href="#">
-    <img src="../image/logo.png" alt="50" height="50">
-    Ecommerce-Carol
+    <div class="name1"><img src="../image/logo.png" alt="50" height="50">Ecommerce-Carol</div>
     </b-navbar-brand>
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-    <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav class="ml-auto">
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav class="ml-auto">
         <b-nav-item @click="gotocart" active>Home</b-nav-item>
+        <!--<b-dropdown-item >Home</b-dropdown-item>-->
         <b-nav-item @click="gotocart" active>Cart</b-nav-item>
         <b-nav-item @click="gotocart" active>Blog</b-nav-item>
         <b-nav-item @click="gotocart" active>About Us</b-nav-item>
         <b-nav-item @click="gotocart" active>Product</b-nav-item>
+            <!--<b-dropdown text="Outline Danger" variant="outline-danger" class="m-2">
+            <b-dropdown-item href="#">Action</b-dropdown-item>
+            <b-dropdown-item href="#">Another action</b-dropdown-item>
+            </b-dropdown>-->                                                                                                                                                           
         <b-nav-item-dropdown right>
         <template v-slot:button-content>
-            <em>My Account</em>
+        <!--<div class="h2 mb-0">
+            
+        </div>-->
+         <b-icon icon="person-fill"></b-icon>
+         <b-icon icon="gear-fill"></b-icon>
         </template>   
         <b-dropdown-item v-b-modal.modal-1>Sing In</b-dropdown-item>
         <b-dropdown-item v-b-modal.modal-1>Login</b-dropdown-item> 
@@ -23,8 +31,9 @@
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
-<div>
-<b-modal hide-footer ref="my-modal" id="modal-1" title="Admin">
+ 
+<!--<div>
+    <b-modal hide-footer ref="my-modal" id="modal-1" title="Admin">
     <b-form @submit="onSumit">
         <b-form-group 
         id="input-group-1" 
@@ -54,8 +63,8 @@
         </b-form-group>
         <b-button type="submit" block variant="primary">Submit</b-button>
     </b-form>
-</b-modal>
-</div>
+    </b-modal>
+</div>-->
 </div>
 </template>
 
@@ -99,5 +108,5 @@ export default {
 </script>
 
 <style>
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 </style>

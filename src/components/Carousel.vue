@@ -9,7 +9,7 @@
       background="#ababab"
       img-width="1024"
       img-height="360"
-      style="text-shadow: 1px 1px 2px #77C8AB;"
+      style="text: 1px 1px 2px #000000;"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
