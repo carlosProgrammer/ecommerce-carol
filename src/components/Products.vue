@@ -1,6 +1,6 @@
 <template>
 <b-container class="bv-example-row bv-example-row-flex-cols">
-<div class="container-fluid mt-5"></div>
+    <div class="container-fluid mt-5"></div>
   
    <b-row align-v="stretch">
     <b-col><img src="../image/img2.png" alt="200" height="250"></b-col>
