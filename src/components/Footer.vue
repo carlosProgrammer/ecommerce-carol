@@ -6,40 +6,34 @@
 
       <div class="row py-4 d-flex align-items-center">
 
-        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-          <h6 class="mb-0">Get connected with us on social networks!</h6>
+        <div class="col-md-6 col-lg-5 text-center text-md-left">
+          <h5 class="mb-0">Get connected with us on social networks!</h5>
         </div>
 
-        <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-          <a class="fb-ic">
-            <b-icon-arrow-up></b-icon-arrow-up>
-          </a>
+        <div class="col-md-6 col-lg-6 text-center text-md-right">
 
           <a class="tw-ic">
-            <i class="fab fa-twitter white-text mr-4"> </i>
-            <i class="fab fa-Facebook"></i>
+            <i class="fab fa-1x fa-twitter white-text mr-4"> </i>
           </a>
 
-          <a class="gplus-ic">
-            <i class="fab fa-google-plus-g white-text mr-4"> </i>
-            <b-icon icon="camera" rotate="45" font-scale="1.5"></b-icon>
+          <a class="fac-ic">
+          <i class="fab fa-1x fa-facebook-square mr-4"></i>
           </a>
 
           <a class="li-ic">
-            <i class="fab fa-linkedin-in white-text mr-4"> </i>
-             <b-icon icon="chat-quote-fill" font-scale="1.5"></b-icon>
+            <i class="fab fa-1x fa-linkedin-in white-text mr-4"> </i>
+            
           </a>
 
           <a class="ins-ic">
-            <i class="fab fa-instagram white-text"> </i>
-            <a class="fb-ic mr-3" role="button"><mdb-icon fab icon="facebook-f" size="lg" /></a>
+            <i class="fab fa-1x fa-instagram white-text width:6; height:6;"> </i>
           </a>
 
         </div>
       </div>
     </div>
   </div>
+  
 
   <!-- Footer Links -->
   <div class="container text-center text-md-left mt-5">
@@ -71,7 +65,7 @@
           <a class="dark-grey-text" href="#!">BrandFlow</a>
         </p>
         <p>
-          <a class="dark-grey-text" href="#!">Bootstrap Angular</a>
+          <a class="dark-grey-text" href="#!">Bootstrap Vue</a>
         </p>
 
       </div>
@@ -105,13 +99,12 @@
           <i class="fas fa-envelope mr-3"></i> info@example.com</p>
         <p>
           <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-        <p>
-          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
 
       </div>
 
     </div>
   </div>
+  
   <div class="footer-copyright text-center text-black-50 py-3">© 2020 Copyright</div>
 
 </footer>
