@@ -90,7 +90,6 @@
       </div>
 
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
         <h6 class="text-uppercase font-weight-bold">Contact</h6>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
@@ -99,7 +98,6 @@
           <i class="fas fa-envelope mr-3"></i> info@example.com</p>
         <p>
           <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-
       </div>
 
     </div>
@@ -117,6 +115,3 @@ export default {
 }
 </script>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-</style>
