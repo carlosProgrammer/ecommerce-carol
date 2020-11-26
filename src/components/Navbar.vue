@@ -10,9 +10,9 @@
         <b-nav-item @click="gotocart" active>Home</b-nav-item>
         <!--<b-dropdown-item >Home</b-dropdown-item>-->
         <b-nav-item @click="gotocart" active>Cart</b-nav-item>
-        <b-nav-item @click="gotocart" active>Blog</b-nav-item>
-        <b-nav-item @click="gotocart" active>About Us</b-nav-item>
-        <b-nav-item @click="gotocart" active>Product</b-nav-item>
+        <b-nav-item @click="gotocart" active>Blog <b-icon icon="chevron-double-down"></b-icon></b-nav-item>
+        <b-nav-item @click="gotocart" active>About Us <b-icon icon="caret-down-fill"></b-icon></b-nav-item>
+        <b-nav-item @click="gotocart" active>Product <b-icon icon="chevron-down"></b-icon></b-nav-item>
             <!--<b-dropdown text="Outline Danger" variant="outline-danger" class="m-2">
             <b-dropdown-item href="#">Action</b-dropdown-item>
             <b-dropdown-item href="#">Another action</b-dropdown-item>

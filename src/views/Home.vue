@@ -4,6 +4,7 @@
     <div class="container-fluid mt-2"></div>
     <carousel />
     <products />
+     <Blog />
     <specialp />
     <Footer />
   </div>
@@ -15,6 +16,7 @@ import carousel from '@/components/Carousel.vue'
 import products from '@/components/Products.vue'
 import specialp from '@/components/SpecialP.vue'
 import Footer from '@/components/Footer.vue'
+import Blog from '@/components/Blog.vue'
 
 export default {
   name: 'home',
@@ -23,7 +25,8 @@ export default {
     carousel,
     products,
     specialp,
-    Footer
+    Footer,
+    Blog
   }
 }
 </script>
