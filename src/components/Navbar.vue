@@ -1,18 +1,41 @@
 <template>
-<div>
+<div class="container">
   <b-navbar toggleable="lg" >
     <b-navbar-brand @click="goHome" href="#">
-    <div class="name1"><img src="../image/logo.png" alt="50" height="50">Ecommerce-Carol</div>
+        <div>
+            <!--<img src="../image/logo.png" alt="50" height="50">-->
+                <div class="name1"><b-button v-b-toggle.sidebar-1 variant="l"><i class="fas fa-bars"></i></b-button>Ecommerce-Carol</div>
+            <b-sidebar id="sidebar-1" title="Usuario Logueado" shadow>
+                <div class="px-3 py-2">
+                    <b-img src="https://picsum.photos/500/500/?image=54" fluid thumbnail></b-img>
+                </div>
+                <div>
+                    <ul>
+                        <a href="#">SHOPING</a>
+                    </ul>
+                    <ul>
+                        <a href="#">ACCESSORIES</a>
+                    </ul>
+                    <ul>
+                        <a href="#">CLOTHING</a>
+                    </ul>
+                    <ul>
+                        <a href="#">BEAUTY AND PERSONAL</a>
+                    </ul>
+                </div>
+  
+            </b-sidebar>
+        </div>
     </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
-        <b-nav-item @click="gotocart" active>Home</b-nav-item>
+        <b-nav-item active>Home <b-icon icon="chevron-down"></b-icon></b-nav-item>
         <!--<b-dropdown-item >Home</b-dropdown-item>-->
-        <b-nav-item @click="gotocart" active>Cart</b-nav-item>
-        <b-nav-item @click="gotocart" active>Blog <b-icon icon="chevron-double-down"></b-icon></b-nav-item>
-        <b-nav-item @click="gotocart" active>About Us <b-icon icon="caret-down-fill"></b-icon></b-nav-item>
-        <b-nav-item @click="gotocart" active>Product <b-icon icon="chevron-down"></b-icon></b-nav-item>
+        <b-nav-item @click="gotocart" active>Cart <b-icon icon="chevron-down"></b-icon></b-nav-item>
+        <b-nav-item @click="gotblog" active>Blog <b-icon icon="chevron-down"></b-icon></b-nav-item>
+        <b-nav-item @click="gotoaboutus" active>About Us <b-icon icon="chevron-down"></b-icon></b-nav-item>
+        <b-nav-item @click="gotoproduct" active>Product <b-icon icon="chevron-down"></b-icon></b-nav-item>
             <!--<b-dropdown text="Outline Danger" variant="outline-danger" class="m-2">
             <b-dropdown-item href="#">Action</b-dropdown-item>
             <b-dropdown-item href="#">Another action</b-dropdown-item>

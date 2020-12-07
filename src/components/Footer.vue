@@ -36,11 +36,11 @@
   
 
   <!-- Footer Links -->
-  <div class="container text-center text-md-left mt-5">
+  <div class="container text-center text-md-center mt-5">
 
     <div class="row mt-3 dark-grey-text">
 
-      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+      <div class="col-md-4 col-lg-4 col-xl-4 mb-4">
 
         <h6 class="text-uppercase font-weight-bold"><!--<img src="../image/logo.png" alt="50" height="50">-->Ecommerce-Carol</h6>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
@@ -69,6 +69,8 @@
         </p>
 
       </div>
+
+
   
       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
 
@@ -89,7 +91,7 @@
 
       </div>
 
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+      <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4">
         <h6 class="text-uppercase font-weight-bold">Contact</h6>
         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
